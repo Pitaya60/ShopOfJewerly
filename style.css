@@ -1,0 +1,526 @@
+body {
+    margin: 0;
+    background: #F9F9F9;
+    font-family: sans-serif;
+    font-weight: 100;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em 2em;
+    background-color: #5AC7BD;
+    color: white;
+    height: 109px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.nav .logo {
+    margin-left: 135px;
+    font-family: 'Gilroy-Bold', sans-serif;
+    font-size: 28px;
+    font-weight: bold;
+    color: #0A0B1C;
+}
+
+.nav .nav-links {
+    font-family: 'Avenir LT Pro', sans-serif;
+    list-style: none;
+    display: flex;
+    gap: 2em;
+    margin: 0;
+    padding: 0;
+}
+
+.nav .nav-links li {
+    display: inline;
+}
+
+.nav .nav-links a {
+    text-decoration: none;
+    color: #0A0B1C;
+    transition: color 0.3s ease;
+}
+
+.nav .nav-links a:hover {
+    color: #ffff;
+}
+
+.nav .nav-links a img{
+    color: #0A0B1C;
+    transition: color 0.3s ease;
+}
+
+.nav .nav-links a:hover {
+    color: #ffff;
+}
+
+.table1 {
+    margin-top: 109px;
+    height: 1024px;
+}
+
+.table1 .text1,
+.table1 .text2,
+.table1 .text3,
+.table1 .text4 {
+    margin: 20px 0px 0px 0px;
+    position: absolute;
+    left: 135px;
+    color: #0A0B1C;
+}
+
+.table1 .text1 {
+    top: 329px;
+    width: 500px;
+    height: 157px;
+    font-size: 65px;
+    font-family: "Avenir LT Pro 95 Black";
+}
+
+.table1 .text2 {
+    top: 395px;
+    width: 500px;
+    height: 157px;
+    font-size: 65px;
+    font-family: "Avenir LT Pro 95 Black";
+}
+
+.table1 .text3 {
+    top: 512px;
+    width: 444px;
+    height: 62px;
+    font-size: 25px;
+    font-family: "Avenir LT Pro 55 Roman";
+}
+
+.table1 .text4 {
+    top: 545px;
+    width: 444px;
+    height: 62px;
+    font-size: 25px;
+    font-family: "Avenir LT Pro 55 Roman";
+}
+
+.table1 .button-shop {
+    margin-top:20px;
+    position: absolute;
+    top: 607px;
+    left: 135px;
+    width: 170px;
+    height: 52px;
+    font-family: "Avenir LT Pro 55 Roman";
+    font-size: 15px;
+    border: none;
+    background-color: #5AC7BD;
+    color: #0A0B1C;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.table1 .button-shop:hover {
+    background-color: #C75A64;
+    color: #fff;
+}
+
+.table1 .right {
+    margin-left: 500px;
+    width: 656px;
+    height: 645px;
+}
+
+.table2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 838px;
+    background-color: #F6F7F9;
+}
+
+.table2 .title {
+    text-align: center;
+    font-family: "Avenir LT Pro 55 Roman";
+    font-size: 65px;
+    color: #0A0B1C;
+    margin-bottom: 50px;
+}
+
+.table2 .content {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1200px;
+    box-sizing: border-box;
+}
+
+.table2 .content .cart {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+}
+
+.table2 .content .cart img {
+    width: 100%;
+    height: auto;
+}
+
+.table2 .content .cart .text {
+    color: #1E1E1E;
+    font-family: "Avenir LT Pro 55 Roman";
+    font-size: 25px;
+}
+
+.table2 .content .cart .btext {
+    color: #1E1E1E;
+    font-family: "Avenir LT Pro 95 Black";
+    font-size: 25px;
+}
+
+@media only screen and (max-width: 700px) {
+    .table2 .content {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+.table2 .button-shop2 {
+    outline: 3.5px solid #5AC7BD;
+    border: 1px solid #F6F7F9;
+    width: 170px;
+    height: 52px;
+    font-family: "Avenir LT Pro 55 Roman";
+    font-size: 15px;
+    color: #5AC7BD;
+    cursor: pointer;
+    transition: 0.3s ease, color 0.3s ease;
+    margin-top: 30px;
+}
+
+.table2 .button-shop2:hover {
+    outline: 3.5px solid #C75A64;
+    border: 1px solid #C75A64;
+    background-color: #C75A64;
+    color: #F6F7F9;
+}
+
+.table3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    padding: 50px 0;
+}
+
+.table3 img {
+    width: 100%;
+    max-width: 1128px;
+    height: auto;
+}
+
+.table4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 1024px;
+    background-color: #F6F3EE;
+}
+
+.table4 .title2 {
+    text-align: center;
+    font-family: "Avenir LT Pro 55 Roman";
+    font-size: 65px;
+    color: #C75A64;
+    margin-bottom: 50px;
+}
+
+.table4 .content2 {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1200px;
+    box-sizing: border-box;
+}
+
+.table4 .content2 .cart2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+}
+
+.table4 .content2 .cart2 img {
+    width: 100%;
+    height: auto;
+}
+
+.table4 .content2 .cart2 .text2 {
+    color: #1E1E1E;
+    font-family: "Avenir LT Pro 55 Roman";
+    font-size: 25px;
+}
+
+.table4 .content2 .cart2 .btext2 {
+    color: #1E1E1E;
+    font-family: "Avenir LT Pro 95 Black";
+    font-size: 25px;
+}
+
+@media only screen and (max-width: 700px) {
+    .table4 .content2 {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+.table4 .button-shop3 {
+    outline: 3.5px solid #C75A64;
+    border: 1px solid #F6F3EE;
+    width: 170px;
+    height: 52px;
+    font-family: "Avenir LT Pro 55 Roman";
+    font-size: 15px;
+    color: #C75A64; 
+    cursor: pointer;
+    transition: 0.3s ease, color 0.3s ease;
+    margin-top: 30px;
+}
+
+.table4 .button-shop3:hover {
+    outline: 3.5px solid #C75A64;
+    border: 1px solid #C75A64;
+    background-color: #C75A64;
+    color: #F6F7F9;
+}
+
+.table5 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    padding: 20px 0;
+}
+
+.table5 img {
+    max-width: 100%;
+    width: 1468px ;
+}
+
+.table6 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    padding: 20px 0;
+}
+
+.table7 {
+    width: 1440px;
+    height: 1024px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    padding: 50px 0;
+}
+
+.table7 img{
+    position: absolute;
+    top:5800px; 
+    left:150px; 
+    max-width: 100%;
+    width: 518px;
+    z-index: 2;
+}
+
+.table7 .square{
+    left: 239px;
+    max-width: 100%;
+    height: 663px; 
+    width: 766px;
+    background-color: #E5ECEB;
+}
+.table7 .title3 {
+    position: absolute;
+    left: 700px; 
+    top: 5800px;
+    width: 350px;
+    font-family: 'Gilroy-Bold', sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+    color: #0A0B1C;
+    z-index: 1;
+}
+.table7 .group {
+    position: absolute;
+    left: 700px; 
+}
+.table7 .input {
+    font-size: 16px;
+    padding: 10px 10px 10px 5px;
+    display: block;
+    width: 200px;
+    border: none;
+    border-bottom: 1px solid #0A0B1C;
+    background: transparent;
+}
+
+.table7 input:focus {
+    outline: none;
+}
+   
+.table7 label {
+    color: #0A0B1C;
+    font-size: 18px;
+    font-weight: normal;
+    position: absolute;
+    pointer-events: none;
+    left: 5px;
+    top: 10px;
+    transition: 0.2s ease all;
+    -moz-transition: 0.2s ease all;
+    -webkit-transition: 0.2s ease all;
+}
+   
+.table7.input:focus ~ label, .input:valid ~ label {
+    top: -20px;
+    font-size: 14px;
+    color: #C75A64;
+}
+   
+.table7 .bar {
+    position: relative;
+    display: block;
+    width: 200px;
+   }
+   
+.table7 .bar:before, .bar:after {
+    content: '';
+    height: 2px;
+    width: 0;
+    bottom: 1px;
+    position: absolute;
+    background: #C75A64;
+    transition: 0.2s ease all;
+    -moz-transition: 0.2s ease all;
+    -webkit-transition: 0.2s ease all;
+   }
+   
+.table7 .bar:before {
+    left: 50%;
+}
+   
+.table7 .bar:after {
+    right: 50%;
+}
+   
+.table7 .input:focus ~ .bar:before, .input:focus ~ .bar:after {
+    width: 50%;
+}
+   
+.table7 .highlight {
+    position: absolute;
+    height: 60%;
+    width: 100px;
+    top: 25%;
+    left: 0;
+    pointer-events: none;
+    opacity: 0.5;
+   }
+   
+.table7  .input:focus ~ .highlight {
+    animation: inputHighlighter 0.3s ease;
+}
+   
+@keyframes inputHighlighter {
+    from {
+     background: #C75A64;
+    }
+   
+    to {
+     width: 0;
+     background: transparent;
+    }
+}
+
+.table7 .button-shop4{
+    position: absolute;
+    top:6080px; 
+    left: 700px; 
+    width: 312px;
+    height: 65px;
+    font-family: 'Gilroy-Bold', sans-serif;
+    font-size: 25px;
+    border: none;
+    background-color: #C75A64;
+    color: #F9F9F9;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+.table7 .button-shop4:hover {
+    background-color: #5AC7BD;
+    color: #ffff;
+}
+.footer {
+    background-color: #5AC7BD;
+    color: #0A0B1C;
+    padding: 20px 0;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.footer-section {
+    flex: 1;
+    padding: 10px;
+}
+
+.footer-section h3 {
+    font-family: 'Gilroy-Bold', sans-serif;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.footer-section p, .footer-section a {
+    font-family: 'Avenir LT Pro 55 Roman', sans-serif;
+    font-size: 16px;
+    color: #0A0B1C;
+    text-decoration: none;
+    margin-bottom: 5px;
+    display: block;
+}
+
+.footer-section a:hover {
+    text-decoration: underline;
+}
+
+.footer-socials {
+    display: flex;
+    gap: 10px;
+}
+
+.footer-socials img {
+    width: 24px;
+    height: 24px;
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 20px;
+    font-family: 'Avenir LT Pro 55 Roman', sans-serif;
+    font-size: 14px;
+}
